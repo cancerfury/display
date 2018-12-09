@@ -1,0 +1,15 @@
+#services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+#msg {
+    background-color: #2ecc71;
+    height: 50px;
+    color: white;
+    font-size: 22px;
+}
+#msg p {
+margin-left: 37px;
+padding-top: 12px;
+}

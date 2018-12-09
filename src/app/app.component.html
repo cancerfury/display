@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div id="header">
+                <div id="logo"><img src="assets/img/logo.png"></div>
+                <div id="social">
+
+                    <ul>
+                        <li><a href="http://twitter.com">
+                            <img src="assets/img/twitter.png" alt="Twitter"></a>
+                        </li>
+                        <li><a href="http://facebook.com">
+                            <img src="assets/img/facebook.png" alt="Facebook"></a>
+                        </li>
+                        <li><a href="http://rss.com">
+                            <img src="assets/img/rss.png" alt="RSS Feed"></a>
+                        </li>
+                        <li><a href="http://pinterest.com">
+                            <img src="assets/img/pinterest.png" alt="Pinterest"></a>
+                        </li>
+                        <li><a href="http://google-plus.com">
+                            <img src="assets/img/google-plus.png" alt="Google Plus"></a>
+                        </li>
+                        <li><a href="http://dribbble.com">
+                            <img src="assets/img/dribbble.png" alt="Dribbble"></a>
+                        </li>
+                    </ul>
+               </div>
+            </div>
+            <app-navigation></app-navigation>
+        </header>
+        
+        <main>
+            <router-outlet></router-outlet>
+        </main>
+
+        <footer>
+            <div id="action_call_2">
+                <h3>ARE YOU READY TO BE BLOWN AWAY?</h3>
+                <a href="#">CLICK HERE TO FIND OUT</a>
+            </div>
+            <div id="footer_nav">
+                <p>COPYWRIGHT 2013 DISPLAY. ALL RIGHTS RESERVED</p>
+                <div class="footer_nav"><app-navigation></app-navigation></div>
+            </div>
+        </footer>
+    </body>
+</html>
